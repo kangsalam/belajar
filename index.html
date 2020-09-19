@@ -73,7 +73,7 @@
 		};
 		
 		$(document).ready(function(){
-			getData("data.php", function(data){
+			getData("https://raw.githubusercontent.com/kangsalam/belajar/master/data.php", function(data){
 				pasteHTML(data);
 				
 				$("#filter").keyup(function(){
